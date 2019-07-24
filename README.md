@@ -7,7 +7,7 @@ To run project:
 4. Credentials: crudadmin/password, readonlyadmin/password
 
 Project analysis:
-1. Projects is based on React library. For managing state I've been using `Redux` for managing data flow and `Redux-saga` middleware for async actions.
+1. Projects is based on React library. For managing state I've been using `Redux` for managing data flow and `Redux-saga` middleware for async actions. For routing I used `react-router (v5)`.
 2. Actively used hooks and functional components.
 3. Used mocks for data (users). Therefore updating particular user were done only for locale state of user component. (I decided do not store data about user in store for whole redux store lifetime).
 4. Used styled components for styling.
